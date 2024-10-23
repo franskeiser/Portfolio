@@ -88,6 +88,7 @@
         font-size: 15px;
         cursor: pointer;
         border: 2px solid #391655; /* Add border property to set border color */
+        transition: background-color 0.3s ease, color 0.3s ease;
     }
 
     #contact-me:hover {
@@ -274,6 +275,7 @@
     .progress {
         height: 100%;
         border-radius: 5px;
+
     }
 
     .progress1 {
@@ -355,7 +357,7 @@
 
     .project h1 {
         margin: 10px 0px 10px 25px;
-        font-size: 40px;
+        font-size: 35px;
         text-align: left;
         font-family: "VT323", sans-serif;
     }
