@@ -171,7 +171,7 @@
         grid-template-rows: 2fr 5fr;
         grid-template-areas: "about-header about-header"
                             "profile-pic profile-info";
-        padding: 15px 0;
+        padding: 10vh 0;
         padding-bottom: 50px;
     }
 
@@ -302,10 +302,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 0 20px;
-        padding-right: 30px;
-        font-size: 0.25rem;
-        font-size: clamp(0.25rem, 0rem + 1.25vw, 1.5rem);
+        padding-left: 5vw;
+        padding-right: 5vw;
+        font-size: clamp(0.4375rem, 0.2941rem + 0.7647vw, 1.25rem);
         font-family: "Roboto", sans-serif;
         text-align: justify;
         line-height: 30px;
@@ -487,7 +486,7 @@
         letter-spacing: 10px;
         font-size: 0.7rem;
         font-size: clamp(0.7rem, 0.5199999999999999rem + 0.9000000000000001vw, 1.6rem);
-        padding: 0 20px;
+        padding: 0 5vw;
         text-align: center;
         grid-area: contact-header;
         margin-top: 50px;
